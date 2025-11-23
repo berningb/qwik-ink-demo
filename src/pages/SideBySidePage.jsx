@@ -23,10 +23,10 @@ export const SideBySidePage = component$(() => {
               Home
             </a>
             <a 
-              href="#text-analysis" 
+              href="#index" 
               class="text-sm text-purple-600 hover:text-purple-700 font-medium transition-colors"
             >
-              Text Analysis
+              Home
             </a>
           </div>
         </div>
