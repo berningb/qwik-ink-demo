@@ -11,13 +11,21 @@ export default component$(() => {
       {/* Simple Nav */}
       <nav class="bg-white border-b border-gray-200 px-8 py-4">
         <div class="max-w-6xl mx-auto flex items-center justify-between">
-          <h1 class="text-xl font-bold text-gray-800">Qwik RTE</h1>
-          <a 
-            href="/side-by-side" 
-            class="text-sm text-purple-600 hover:text-purple-700 font-medium transition-colors"
-          >
-            Side-by-Side Demo →
-          </a>
+          <h1 class="text-xl font-bold text-gray-800">Qwik Ink</h1>
+          <div class="flex items-center gap-4">
+            <a 
+              href="/side-by-side" 
+              class="text-sm text-purple-600 hover:text-purple-700 font-medium transition-colors"
+            >
+              Side-by-Side
+            </a>
+            <a 
+              href="/text-analysis" 
+              class="text-sm text-purple-600 hover:text-purple-700 font-medium transition-colors"
+            >
+              Text Analysis
+            </a>
+          </div>
         </div>
       </nav>
 
@@ -40,7 +48,7 @@ export default component$(() => {
 });
 
 export const head = {
-  title: 'Qwik RTE - Rich Text Editor',
+  title: 'Qwik Ink - Rich Text Editor',
   meta: [
     {
       name: 'description',

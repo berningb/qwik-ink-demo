@@ -14,13 +14,21 @@ export const SideBySidePage = component$(() => {
     <div class="min-h-screen bg-gray-50">
       <nav class="bg-white border-b border-gray-200 px-8 py-4">
         <div class="max-w-[1800px] mx-auto flex items-center justify-between">
-          <h1 class="text-xl font-bold text-gray-800">Qwik RTE</h1>
-          <a 
-            href="#index" 
-            class="text-sm text-purple-600 hover:text-purple-700 font-medium transition-colors"
-          >
-            ← Back
-          </a>
+          <h1 class="text-xl font-bold text-gray-800">Qwik Ink</h1>
+          <div class="flex items-center gap-4">
+            <a 
+              href="#index" 
+              class="text-sm text-purple-600 hover:text-purple-700 font-medium transition-colors"
+            >
+              Home
+            </a>
+            <a 
+              href="#text-analysis" 
+              class="text-sm text-purple-600 hover:text-purple-700 font-medium transition-colors"
+            >
+              Text Analysis
+            </a>
+          </div>
         </div>
       </nav>
 
